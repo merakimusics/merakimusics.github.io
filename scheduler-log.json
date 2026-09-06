@@ -1,0 +1,34 @@
+[
+  {
+    "event": "Daily Spotlight Executed",
+    "timestamp": "2026-09-06T11:58:56.571Z",
+    "details": {
+      "spotlightVideo": {
+        "id": "1Bbq3qutY7c",
+        "title": "We Leave a Trace Wherever We Go | Cinematic Song #shorts  #music #musicshorts #newmusic #darkpop #dj",
+        "type": "short",
+        "views": 113
+      },
+      "seoScore": 91,
+      "sitePages": 16,
+      "indexNowStatus": 202,
+      "completedAt": "2026-09-06T11:58:56.571Z"
+    }
+  },
+  {
+    "event": "Daily Spotlight Executed",
+    "timestamp": "2026-09-06T11:52:39.705Z",
+    "details": {
+      "spotlightVideo": {
+        "id": "4plhvUQnq5s",
+        "title": "All Sugar, All Fire | Romantic Love Song | MERAKI",
+        "type": "song",
+        "views": 9
+      },
+      "seoScore": 91,
+      "sitePages": 16,
+      "indexNowStatus": 202,
+      "completedAt": "2026-09-06T11:52:39.704Z"
+    }
+  }
+]

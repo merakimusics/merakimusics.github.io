@@ -1,0 +1,61 @@
+{
+  "brand": {
+    "name": "Meraki Musics",
+    "tagline": "Where the pulse of the machine meets the human soul.",
+    "genres": [
+      "80s Synth-pop",
+      "Synthwave",
+      "Retrowave",
+      "Cinematic Electronic",
+      "Cyberpunk",
+      "Romantic Pop"
+    ],
+    "moods": [
+      "Midnight Drive",
+      "Neon Cityscape",
+      "Late-Night Nostalgia",
+      "Cyberpunk Energy",
+      "Romantic Tenderness",
+      "Heavy Bassline"
+    ],
+    "socials": {
+      "youtube": "https://www.youtube.com/@merakiMusics",
+      "youtubeChannelId": "UC1QvOaUTD7USb8Rh3AeXUjw",
+      "spotify": "https://open.spotify.com/artist/4Ava0Xhkv8fzAUYP9Mc1wQ",
+      "tiktok": "https://www.tiktok.com/@merakimusicsofficial",
+      "instagram": "https://www.instagram.com/merakimusics/",
+      "email": "merakimusicsofficial@gmail.com"
+    }
+  },
+  "scheduler": {
+    "mode": "daily_spotlight",
+    "cronExpression": "0 9 * * *",
+    "autoBuildSite": true,
+    "notifyOnNewVideo": true
+  },
+  "seo": {
+    "siteBaseUrl": "https://urveshghelani.github.io/merakimusicsofficial",
+    "indexNowKey": "meraki-indexnow-key-2026",
+    "subreddits": [
+      { "name": "r/synthwave", "flair": "Original Content", "rules": "Use [Artist - Title] format and share creative process" },
+      { "name": "r/retrowave", "flair": "Music", "rules": "Highlight 80s aesthetic and instruments" },
+      { "name": "r/listentothis", "flair": "", "rules": "Include Genre and Year e.g. Meraki -- Song [Synth-pop] (2026)" },
+      { "name": "r/promoteyourmusic", "flair": "Original", "rules": "Engagement question in title or comment" },
+      { "name": "r/electronicmusic", "flair": "", "rules": "Self-promo thread or official Saturdays" }
+    ],
+    "pinterestBoards": [
+      "Synthwave & Retrowave Aesthetics",
+      "Cyberpunk Night City Vibes",
+      "80s Neon Aesthetic Music",
+      "Midnight Drive Soundtracks"
+    ],
+    "discordServers": [
+      "Indie Music Hub",
+      "Synthwave Producers & Fans",
+      "Electronic Music Collective"
+    ]
+  },
+  "api": {
+    "geminiApiKey": ""
+  }
+}

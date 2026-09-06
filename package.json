@@ -1,0 +1,30 @@
+{
+  "name": "meraki-seo-bot",
+  "version": "1.0.0",
+  "description": "Automated background SEO & organic distribution engine for Meraki Musics",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "daemon": "node src/scheduler.js",
+    "sync": "node src/cli.js sync",
+    "spotlight": "node src/cli.js spotlight",
+    "optimize-all": "node src/cli.js optimize-all",
+    "build-site": "node src/cli.js build-site"
+  },
+  "keywords": [
+    "seo",
+    "youtube",
+    "tiktok",
+    "instagram",
+    "meraki-musics",
+    "synthwave",
+    "music-bot"
+  ],
+  "author": "Meraki Musics",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "node-cron": "^3.0.3"
+  }
+}

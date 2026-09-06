@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meraki Musics | SEO & Organic Distribution Command Center</title>
+  <meta name="description" content="Automated SEO, organic reach, and multi-platform syndication dashboard for Meraki Musics.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/logo-emblem.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-layout">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="brand-badge">
+        <img src="assets/logo-emblem.jpg" alt="Meraki Logo" style="width: 44px; height: 44px; border-radius: 10px; object-fit: cover; border: 1px solid rgba(168,85,247,0.5); box-shadow: 0 0 15px rgba(168,85,247,0.5);">
+        <div class="brand-text">
+          <div class="brand-title">MERAKI</div>
+          <div class="brand-sub">SEO BOT V1.0</div>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <button class="nav-item active" data-tab="overview">
+          <span class="icon">📊</span> Overview & Spotlight
+        </button>
+        <button class="nav-item" data-tab="catalog">
+          <span class="icon">🎵</span> Catalog & SEO Studio
+        </button>
+        <button class="nav-item" data-tab="site-hub">
+          <span class="icon">🌐</span> Static Hub & IndexNow
+        </button>
+        <button class="nav-item" data-tab="automation">
+          <span class="icon">🕒</span> Scheduler & Logs
+        </button>
+        <button class="nav-item" data-tab="settings">
+          <span class="icon">⚙️</span> Settings & AI
+        </button>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="live-pill">
+          <span class="pulse-dot"></span>
+          <span id="daemonStatusText">Background Active</span>
+        </div>
+        <div class="version-tag">Meraki Musics Engine</div>
+      </div>
+    </aside>
+
+    <!-- Main Viewport -->
+    <main class="main-content">
+      <!-- Top Bar -->
+      <header class="topbar">
+        <div class="topbar-left">
+          <h1 id="pageTitle">Command Center Overview</h1>
+          <p id="pageSub">Real-time status of Meraki Musics YouTube catalog and organic reach.</p>
+        </div>
+        <div class="topbar-actions">
+          <button id="btnSyncRss" class="btn btn-secondary">
+            <span class="btn-icon">📡</span> Sync Feed
+          </button>
+          <button id="btnTriggerSpotlight" class="btn btn-primary">
+            <span class="btn-icon">🚀</span> Run Daily Spotlight
+          </button>
+          <a href="/preview" target="_blank" class="btn btn-accent">
+            <span class="btn-icon">👁️</span> Live Hub Preview
+          </a>
+        </div>
+      </header>
+
+      <!-- Toast Notification Container -->
+      <div id="toastContainer" class="toast-container"></div>
+
+      <!-- Tab 1: Overview & Spotlight -->
+      <section id="tab-overview" class="tab-pane active">
+        <!-- Metric Cards -->
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-label">Total Catalog Tracks</div>
+            <div class="stat-value" id="statTotalVideos">--</div>
+            <div class="stat-meta">
+              <span id="statSongs">-- songs</span> • <span id="statShorts">-- shorts</span>
+            </div>
+          </div>
+          <div class="stat-card accent-pink">
+            <div class="stat-label">SEO Optimized</div>
+            <div class="stat-value" id="statOptimized">--</div>
+            <div class="stat-meta">
+              <span id="statPending">-- pending</span>
+            </div>
+          </div>
+          <div class="stat-card accent-cyan">
+            <div class="stat-label">Total Channel Views</div>
+            <div class="stat-value" id="statViews">--</div>
+            <div class="stat-meta">Indexed via YouTube Feed</div>
+          </div>
+          <div class="stat-card accent-gold">
+            <div class="stat-label">Indexing & Backlinks</div>
+            <div class="stat-value" id="statHubPages">16</div>
+            <div class="stat-meta">Active Static Schema Pages</div>
+          </div>
+        </div>
+
+        <!-- Daily Spotlight Highlight Banner -->
+        <div class="spotlight-card">
+          <div class="spotlight-badge">⭐ TODAY'S SPOTLIGHT ROTATION</div>
+          <div class="spotlight-content" id="spotlightContent">
+            <div class="spotlight-skeleton">Loading spotlight track...</div>
+          </div>
+        </div>
+
+        <!-- Quick Syndication Levers & Channels -->
+        <div class="channels-section">
+          <div class="section-header">
+            <h2>Free Distribution Levers Enabled</h2>
+            <span class="badge-status">100% Free Organic Reach</span>
+          </div>
+          <div class="channels-grid">
+            <div class="channel-card">
+              <div class="channel-icon yt">▶️</div>
+              <div class="channel-info">
+                <h3>YouTube Algorithmic SEO</h3>
+                <p>Curiosity & Keyword titles, 500-char tags, chapter marks, lyric search indexing.</p>
+              </div>
+              <span class="tag-status active">Active</span>
+            </div>
+            <div class="channel-card">
+              <div class="channel-icon tt">📱</div>
+              <div class="channel-info">
+                <h3>TikTok & Reels Discovery</h3>
+                <p>3-second pattern interrupt hooks, keyword captions, multi-tier hashtag stacks.</p>
+              </div>
+              <span class="tag-status active">Active</span>
+            </div>
+            <div class="channel-card">
+              <div class="channel-icon rd">💬</div>
+              <div class="channel-info">
+                <h3>Reddit Niche Syndication</h3>
+                <p>Rules-compliant value-first posts for r/synthwave, r/retrowave, r/listentothis.</p>
+              </div>
+              <span class="tag-status active">Active</span>
+            </div>
+            <div class="channel-card">
+              <div class="channel-icon in">⚡</div>
+              <div class="channel-info">
+                <h3>IndexNow Search Protocol</h3>
+                <p>Direct API submission to Bing, Yandex, Seznam without waiting for crawlers.</p>
+              </div>
+              <span class="tag-status active">Active</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab 2: Catalog & SEO Studio -->
+      <section id="tab-catalog" class="tab-pane">
+        <div class="catalog-header-bar">
+          <div class="search-filter-box">
+            <input type="text" id="catalogSearch" placeholder="Search track by title or keywords...">
+            <div class="filter-pills">
+              <button class="filter-pill active" data-filter="all">All Tracks</button>
+              <button class="filter-pill" data-filter="song">Full Songs</button>
+              <button class="filter-pill" data-filter="short">Shorts & Reels</button>
+            </div>
+          </div>
+          <button id="btnOptimizeAll" class="btn btn-secondary">
+            <span>🧠</span> Re-Optimize All
+          </button>
+        </div>
+
+        <div class="catalog-view-container">
+          <!-- Track List (Left Column) -->
+          <div class="track-list" id="trackListContainer">
+            <div class="empty-state">Loading catalog...</div>
+          </div>
+
+          <!-- Active Track SEO Detail Studio (Right Column) -->
+          <div class="studio-panel" id="studioPanel">
+            <div class="empty-selection">Select a track on the left to inspect and copy its SEO package.</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab 3: Static Hub & IndexNow -->
+      <section id="tab-site-hub" class="tab-pane">
+        <div class="hub-hero">
+          <div class="hub-hero-text">
+            <h2>Static SEO Music Hub & Authority Backlinks</h2>
+            <p>Every song and short has an auto-generated, standalone HTML page containing full <strong>Schema.org JSON-LD (MusicRecording & VideoObject)</strong> markup. This builds authoritative external embeds for YouTube search algorithms and allows direct Google & Bing indexing.</p>
+            <div class="hub-actions">
+              <button id="btnRebuildSite" class="btn btn-primary">
+                <span>🌐</span> Re-Build Static Hub
+              </button>
+              <button id="btnDispatchIndexNow" class="btn btn-accent">
+                <span>⚡</span> Dispatch IndexNow & Ping Google
+              </button>
+              <a href="/preview" target="_blank" class="btn btn-secondary">
+                <span>🔗</span> Open Live Preview Hub
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Schema Inspector -->
+        <div class="schema-preview-box">
+          <div class="schema-header">
+            <h3>Schema.org Structured Data Inspector</h3>
+            <span class="badge-code">application/ld+json</span>
+          </div>
+          <pre id="schemaCodePreview" class="code-display">// Select a track to preview its Schema.org rich markup...</pre>
+        </div>
+      </section>
+
+      <!-- Tab 4: Scheduler & Logs -->
+      <section id="tab-automation" class="tab-pane">
+        <div class="logs-container">
+          <div class="logs-header">
+            <h2>Background Daemon & Indexing Logs</h2>
+            <button id="btnRefreshLogs" class="btn btn-secondary btn-sm">Refresh Logs</button>
+          </div>
+          <div class="log-cards-grid">
+            <div class="log-card">
+              <h3>Scheduler & Spotlight History</h3>
+              <div id="schedulerLogsList" class="log-list">Loading logs...</div>
+            </div>
+            <div class="log-card">
+              <h3>Search Indexing & Ping History</h3>
+              <div id="indexingLogsList" class="log-list">Loading logs...</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab 5: Settings & AI -->
+      <section id="tab-settings" class="tab-pane">
+        <div class="settings-card">
+          <h2>Bot Configuration & Free API Setup</h2>
+          <p class="settings-desc">Customize your brand details, scheduling frequency, and optional Google Gemini Free API key.</p>
+
+          <form id="settingsForm">
+            <div class="form-group">
+              <label for="cfgGeminiKey">Google Gemini Free API Key (Optional)</label>
+              <input type="password" id="cfgGeminiKey" placeholder="AIzaSy... (Leave empty to use built-in heuristic rules)">
+              <small>Get a 100% free Gemini API key from <a href="https://aistudio.google.com/" target="_blank">Google AI Studio</a> (Free tier: 15 requests/min, 1,500/day).</small>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="cfgCron">Background Spotlight Cron Expression</label>
+                <input type="text" id="cfgCron" value="0 9 * * *">
+                <small>Default: "0 9 * * *" (Every day at 9:00 AM)</small>
+              </div>
+              <div class="form-group">
+                <label for="cfgSiteUrl">Static Hub Base URL</label>
+                <input type="text" id="cfgSiteUrl" value="https://merakimusics.github.io">
+                <small>Where your static site is published (GitHub Pages, Cloudflare Pages, or custom domain).</small>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="cfgTagline">Brand Tagline</label>
+              <input type="text" id="cfgTagline" value="Where the pulse of the machine meets the human soul.">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Save Configuration</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

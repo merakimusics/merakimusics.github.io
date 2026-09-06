@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://urveshghelani.github.io/merakimusicsofficial/sitemap.xml
