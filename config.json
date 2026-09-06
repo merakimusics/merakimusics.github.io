@@ -34,7 +34,7 @@
     "notifyOnNewVideo": true
   },
   "seo": {
-    "siteBaseUrl": "https://urveshghelani.github.io/merakimusicsofficial",
+    "siteBaseUrl": "https://merakimusicsofficial.github.io",
     "indexNowKey": "meraki-indexnow-key-2026",
     "subreddits": [
       { "name": "r/synthwave", "flair": "Original Content", "rules": "Use [Artist - Title] format and share creative process" },

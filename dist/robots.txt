@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://urveshghelani.github.io/merakimusicsofficial/sitemap.xml
+Sitemap: https://merakimusicsofficial.github.io/sitemap.xml
